@@ -3,7 +3,7 @@ function summonerLookUp(){
    SUMMONER_NAME = $("#userName").val();
 
    var API_KEY = "";
-   API_KEY = $("#theKey").val();
+   API_KEY = "792be927-1dda-4511-9798-3bc5c2a2de19";
 
    if(SUMMONER_NAME !== ""){
       $.ajax({
