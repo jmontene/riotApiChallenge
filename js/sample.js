@@ -22,7 +22,8 @@ function summonerLookUp(){
 	    summonerID = json[SUMMONER_NAME_NOSPACES].id;
 
 	    document.getElementById("sLevel").innerHTML = summonerLevel;
-	    document.getElementById("sID").innerHtML = summonerID;
+	    document.getElementById("sID").innerHTML = summonerID;
+
 	 },
 	 error: function(XMLHttpRequest, textStatus, errorThrown){
 	    alert("error getting Summoner data!");
