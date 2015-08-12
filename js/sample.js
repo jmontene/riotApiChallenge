@@ -22,10 +22,10 @@ function summonerLookUp(){
 	    summonerID = json[SUMMONER_NAME_NOSPACES].id;
 
 	    document.getElementById("sLevel").innerHTML = summonerLevel;
-	    document.getElementByID("sID").innerHtML = summonerID;
+	    document.getElementById("sID").innerHtML = summonerID;
 	 },
 	 error: function(XMLHttpRequest, textStatus, errorThrown){
-	    alert("error gettinr Summoner data!");
+	    alert("error getting Summoner data!");
 	 }
       });
    }else {}
