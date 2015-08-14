@@ -7,7 +7,7 @@ public class SampleController : System.Web.Mvc.Controller{
 	[HttpPost]
 	public ActionResult summonerLookUp(string summonerName){
 		string text = "";
-		string API_KEY = "792be927-1dda-4511-9798-3bc5c2a2de19";
+		string API_KEY = "";
 		try{
 			using (var webClient = new WebClient()){
 				webClient.Encoding = Encoding.UTF8;
